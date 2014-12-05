@@ -46,7 +46,7 @@ extern NSString * const kGRKProxyDefaultStoryboardBundleIdentifierMetadataDelimi
  * * `storyboardBundleIdentifier` is the optional bundle identifier in which to locate the specified storyboard.
  *    If not supplied we will assume the storyboard is located in the main bundle.
  *
- * Ex: You could specify "GRKMyFancyViewController" as the metadata in Interface Builder's Restoration Identifier
+ * e.g.: You could specify "GRKMyFancyViewController" as the metadata in Interface Builder's Restoration Identifier
  * for this proxy instance, and we would attempt to load the initial view controller from a storyboard file named
  * "GRKMyFancyViewController.storyboard" in the main bundle.
  */
