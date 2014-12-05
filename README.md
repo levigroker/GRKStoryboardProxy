@@ -18,8 +18,9 @@ application into multiple Storyboard files at various boundaries. One storyboard
 tab of a UITabBarController. One storyboard for two different view controllers, each
 presented via a segue from the main interface:
 
-![Demo](ReadmeAssets/Demo.gif)![Xcode](ReadmeAssets/Xcode.png)
-
+![Demo](ReadmeAssets/Demo.gif)
+![Xcode](ReadmeAssets/Xcode.png)
+![Storyboard](ReadmeAssets/MainStoryboard.png)
 
 ### Installing
 
@@ -34,9 +35,14 @@ project.
 ### Documentation
 
 To use, create a UIViewController in your parent Storyboard, set the class to
-`GRKStoryboardProxyViewController`, configure proxy to point at your desired target
+`GRKStoryboardProxyViewController`, configure the proxy to point at your desired target
 Storyboard and view controller, and then connect it to the rest of your app as if it were
 the target view controller.
+
+NOTE: At runtime the proxy will be entirely replaced by the view controller you have
+specified. This is important to understand since any changes made to the proxy will not
+apply to the final view controller. Those changes will need to be made on the actual view
+controller in its own Storyboard.
 
 Configuration of the proxy is done by using the `restorationIdentifier` property of the
 view controller. 
