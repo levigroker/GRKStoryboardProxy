@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB2450FA1A31344300D6CE12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2450F91A31344300D6CE12 /* main.m */; };
+		DB2450FD1A31344300D6CE12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2450FC1A31344300D6CE12 /* AppDelegate.m */; };
+		DB2451001A31344300D6CE12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2450FF1A31344300D6CE12 /* ViewController.m */; };
+		DB2451031A31344300D6CE12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2451011A31344300D6CE12 /* Main.storyboard */; };
+		DB2451051A31344300D6CE12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB2451041A31344300D6CE12 /* Images.xcassets */; };
+		DB2451081A31344300D6CE12 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB2451061A31344300D6CE12 /* LaunchScreen.xib */; };
+		DB2451141A31344300D6CE12 /* GRKStoryboardProxyTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2451131A31344300D6CE12 /* GRKStoryboardProxyTestAppTests.m */; };
+		DB24511E1A3134C700D6CE12 /* Tab1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB24511D1A3134C700D6CE12 /* Tab1.storyboard */; };
+		DB2451221A3134DC00D6CE12 /* GRKStoryboardProxyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2451211A3134DC00D6CE12 /* GRKStoryboardProxyViewController.m */; };
+		DB2451231A3134DC00D6CE12 /* GRKStoryboardProxyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2451211A3134DC00D6CE12 /* GRKStoryboardProxyViewController.m */; };
+		DB2451271A31353D00D6CE12 /* GRKStoryboardProxyViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2451261A31353D00D6CE12 /* GRKStoryboardProxyViewControllerTests.m */; };
+		DB2451291A31359F00D6CE12 /* Segue.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2451281A31359F00D6CE12 /* Segue.storyboard */; };
+		DB24512C1A31365B00D6CE12 /* Segue1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB24512B1A31365B00D6CE12 /* Segue1ViewController.m */; };
+		DB24512F1A31366F00D6CE12 /* Segue2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB24512E1A31366F00D6CE12 /* Segue2ViewController.m */; };
+		DB2451331A313A8000D6CE12 /* Tab2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2451321A313A8000D6CE12 /* Tab2.storyboard */; };
+		DB2451361A313B3B00D6CE12 /* Tab1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2451351A313B3B00D6CE12 /* Tab1ViewController.m */; };
+		DB24513A1A32213900D6CE12 /* Tab2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2451391A32213900D6CE12 /* Tab2ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB24510E1A31344300D6CE12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB2450EC1A31344300D6CE12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB2450F31A31344300D6CE12;
+			remoteInfo = GRKStoryboardProxyTestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB2450F41A31344300D6CE12 /* GRKStoryboardProxyTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRKStoryboardProxyTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2450F81A31344300D6CE12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2450F91A31344300D6CE12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB2450FB1A31344300D6CE12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB2450FC1A31344300D6CE12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB2450FE1A31344300D6CE12 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB2450FF1A31344300D6CE12 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB2451021A31344300D6CE12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB2451041A31344300D6CE12 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB2451071A31344300D6CE12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DB24510D1A31344300D6CE12 /* GRKStoryboardProxyTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GRKStoryboardProxyTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB2451121A31344300D6CE12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2451131A31344300D6CE12 /* GRKStoryboardProxyTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRKStoryboardProxyTestAppTests.m; sourceTree = "<group>"; };
+		DB24511D1A3134C700D6CE12 /* Tab1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tab1.storyboard; sourceTree = "<group>"; };
+		DB2451201A3134DC00D6CE12 /* GRKStoryboardProxyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRKStoryboardProxyViewController.h; sourceTree = "<group>"; };
+		DB2451211A3134DC00D6CE12 /* GRKStoryboardProxyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRKStoryboardProxyViewController.m; sourceTree = "<group>"; };
+		DB2451261A31353D00D6CE12 /* GRKStoryboardProxyViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRKStoryboardProxyViewControllerTests.m; sourceTree = "<group>"; };
+		DB2451281A31359F00D6CE12 /* Segue.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Segue.storyboard; sourceTree = "<group>"; };
+		DB24512A1A31365B00D6CE12 /* Segue1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Segue1ViewController.h; sourceTree = "<group>"; };
+		DB24512B1A31365B00D6CE12 /* Segue1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Segue1ViewController.m; sourceTree = "<group>"; };
+		DB24512D1A31366F00D6CE12 /* Segue2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Segue2ViewController.h; sourceTree = "<group>"; };
+		DB24512E1A31366F00D6CE12 /* Segue2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Segue2ViewController.m; sourceTree = "<group>"; };
+		DB2451321A313A8000D6CE12 /* Tab2.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Tab2.storyboard; sourceTree = "<group>"; };
+		DB2451341A313B3B00D6CE12 /* Tab1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tab1ViewController.h; sourceTree = "<group>"; };
+		DB2451351A313B3B00D6CE12 /* Tab1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tab1ViewController.m; sourceTree = "<group>"; };
+		DB2451371A321E0C00D6CE12 /* Notifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
+		DB2451381A32213900D6CE12 /* Tab2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tab2ViewController.h; sourceTree = "<group>"; };
+		DB2451391A32213900D6CE12 /* Tab2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tab2ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB2450F11A31344300D6CE12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB24510A1A31344300D6CE12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB2450EB1A31344300D6CE12 = {
+			isa = PBXGroup;
+			children = (
+				DB24511F1A3134DC00D6CE12 /* GRKStoryboardProxy */,
+				DB2450F61A31344300D6CE12 /* GRKStoryboardProxyTestApp */,
+				DB2450F71A31344300D6CE12 /* Supporting Files */,
+				DB2451101A31344300D6CE12 /* GRKStoryboardProxyTestAppTests */,
+				DB2450F51A31344300D6CE12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB2450F51A31344300D6CE12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB2450F41A31344300D6CE12 /* GRKStoryboardProxyTestApp.app */,
+				DB24510D1A31344300D6CE12 /* GRKStoryboardProxyTestAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB2450F61A31344300D6CE12 /* GRKStoryboardProxyTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				DB2451371A321E0C00D6CE12 /* Notifications.h */,
+				DB2450FB1A31344300D6CE12 /* AppDelegate.h */,
+				DB2450FC1A31344300D6CE12 /* AppDelegate.m */,
+				DB2450FE1A31344300D6CE12 /* ViewController.h */,
+				DB2450FF1A31344300D6CE12 /* ViewController.m */,
+				DB2451061A31344300D6CE12 /* LaunchScreen.xib */,
+				DB2451011A31344300D6CE12 /* Main.storyboard */,
+				DB2451041A31344300D6CE12 /* Images.xcassets */,
+				DB2451301A31367A00D6CE12 /* Segue */,
+				DB2451311A31368600D6CE12 /* Tabs */,
+			);
+			path = GRKStoryboardProxyTestApp;
+			sourceTree = "<group>";
+		};
+		DB2450F71A31344300D6CE12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB2450F81A31344300D6CE12 /* Info.plist */,
+				DB2450F91A31344300D6CE12 /* main.m */,
+			);
+			name = "Supporting Files";
+			path = GRKStoryboardProxyTestApp;
+			sourceTree = "<group>";
+		};
+		DB2451101A31344300D6CE12 /* GRKStoryboardProxyTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB2451261A31353D00D6CE12 /* GRKStoryboardProxyViewControllerTests.m */,
+				DB2451131A31344300D6CE12 /* GRKStoryboardProxyTestAppTests.m */,
+				DB2451111A31344300D6CE12 /* Supporting Files */,
+			);
+			path = GRKStoryboardProxyTestAppTests;
+			sourceTree = "<group>";
+		};
+		DB2451111A31344300D6CE12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB2451121A31344300D6CE12 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB24511F1A3134DC00D6CE12 /* GRKStoryboardProxy */ = {
+			isa = PBXGroup;
+			children = (
+				DB2451201A3134DC00D6CE12 /* GRKStoryboardProxyViewController.h */,
+				DB2451211A3134DC00D6CE12 /* GRKStoryboardProxyViewController.m */,
+			);
+			name = GRKStoryboardProxy;
+			path = ../GRKStoryboardProxy;
+			sourceTree = "<group>";
+		};
+		DB2451301A31367A00D6CE12 /* Segue */ = {
+			isa = PBXGroup;
+			children = (
+				DB2451281A31359F00D6CE12 /* Segue.storyboard */,
+				DB24512A1A31365B00D6CE12 /* Segue1ViewController.h */,
+				DB24512B1A31365B00D6CE12 /* Segue1ViewController.m */,
+				DB24512D1A31366F00D6CE12 /* Segue2ViewController.h */,
+				DB24512E1A31366F00D6CE12 /* Segue2ViewController.m */,
+			);
+			name = Segue;
+			sourceTree = "<group>";
+		};
+		DB2451311A31368600D6CE12 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				DB24511D1A3134C700D6CE12 /* Tab1.storyboard */,
+				DB2451321A313A8000D6CE12 /* Tab2.storyboard */,
+				DB2451341A313B3B00D6CE12 /* Tab1ViewController.h */,
+				DB2451351A313B3B00D6CE12 /* Tab1ViewController.m */,
+				DB2451381A32213900D6CE12 /* Tab2ViewController.h */,
+				DB2451391A32213900D6CE12 /* Tab2ViewController.m */,
+			);
+			name = Tabs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB2450F31A31344300D6CE12 /* GRKStoryboardProxyTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB2451171A31344300D6CE12 /* Build configuration list for PBXNativeTarget "GRKStoryboardProxyTestApp" */;
+			buildPhases = (
+				DB2450F01A31344300D6CE12 /* Sources */,
+				DB2450F11A31344300D6CE12 /* Frameworks */,
+				DB2450F21A31344300D6CE12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GRKStoryboardProxyTestApp;
+			productName = GRKStoryboardProxyTestApp;
+			productReference = DB2450F41A31344300D6CE12 /* GRKStoryboardProxyTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB24510C1A31344300D6CE12 /* GRKStoryboardProxyTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB24511A1A31344300D6CE12 /* Build configuration list for PBXNativeTarget "GRKStoryboardProxyTestAppTests" */;
+			buildPhases = (
+				DB2451091A31344300D6CE12 /* Sources */,
+				DB24510A1A31344300D6CE12 /* Frameworks */,
+				DB24510B1A31344300D6CE12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB24510F1A31344300D6CE12 /* PBXTargetDependency */,
+			);
+			name = GRKStoryboardProxyTestAppTests;
+			productName = GRKStoryboardProxyTestAppTests;
+			productReference = DB24510D1A31344300D6CE12 /* GRKStoryboardProxyTestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB2450EC1A31344300D6CE12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Levi Brown";
+				TargetAttributes = {
+					DB2450F31A31344300D6CE12 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DB24510C1A31344300D6CE12 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DB2450F31A31344300D6CE12;
+					};
+				};
+			};
+			buildConfigurationList = DB2450EF1A31344300D6CE12 /* Build configuration list for PBXProject "GRKStoryboardProxyTestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB2450EB1A31344300D6CE12;
+			productRefGroup = DB2450F51A31344300D6CE12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB2450F31A31344300D6CE12 /* GRKStoryboardProxyTestApp */,
+				DB24510C1A31344300D6CE12 /* GRKStoryboardProxyTestAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB2450F21A31344300D6CE12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2451031A31344300D6CE12 /* Main.storyboard in Resources */,
+				DB2451081A31344300D6CE12 /* LaunchScreen.xib in Resources */,
+				DB24511E1A3134C700D6CE12 /* Tab1.storyboard in Resources */,
+				DB2451331A313A8000D6CE12 /* Tab2.storyboard in Resources */,
+				DB2451051A31344300D6CE12 /* Images.xcassets in Resources */,
+				DB2451291A31359F00D6CE12 /* Segue.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB24510B1A31344300D6CE12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB2450F01A31344300D6CE12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2451001A31344300D6CE12 /* ViewController.m in Sources */,
+				DB24512C1A31365B00D6CE12 /* Segue1ViewController.m in Sources */,
+				DB2450FD1A31344300D6CE12 /* AppDelegate.m in Sources */,
+				DB2451361A313B3B00D6CE12 /* Tab1ViewController.m in Sources */,
+				DB24512F1A31366F00D6CE12 /* Segue2ViewController.m in Sources */,
+				DB2450FA1A31344300D6CE12 /* main.m in Sources */,
+				DB2451221A3134DC00D6CE12 /* GRKStoryboardProxyViewController.m in Sources */,
+				DB24513A1A32213900D6CE12 /* Tab2ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB2451091A31344300D6CE12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB2451141A31344300D6CE12 /* GRKStoryboardProxyTestAppTests.m in Sources */,
+				DB2451271A31353D00D6CE12 /* GRKStoryboardProxyViewControllerTests.m in Sources */,
+				DB2451231A3134DC00D6CE12 /* GRKStoryboardProxyViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB24510F1A31344300D6CE12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB2450F31A31344300D6CE12 /* GRKStoryboardProxyTestApp */;
+			targetProxy = DB24510E1A31344300D6CE12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB2451011A31344300D6CE12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2451021A31344300D6CE12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB2451061A31344300D6CE12 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB2451071A31344300D6CE12 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB2451151A31344300D6CE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB2451161A31344300D6CE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB2451181A31344300D6CE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GRKStoryboardProxyTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB2451191A31344300D6CE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GRKStoryboardProxyTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB24511B1A31344300D6CE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GRKStoryboardProxyTestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GRKStoryboardProxyTestApp.app/GRKStoryboardProxyTestApp";
+			};
+			name = Debug;
+		};
+		DB24511C1A31344300D6CE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GRKStoryboardProxyTestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GRKStoryboardProxyTestApp.app/GRKStoryboardProxyTestApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB2450EF1A31344300D6CE12 /* Build configuration list for PBXProject "GRKStoryboardProxyTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2451151A31344300D6CE12 /* Debug */,
+				DB2451161A31344300D6CE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB2451171A31344300D6CE12 /* Build configuration list for PBXNativeTarget "GRKStoryboardProxyTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB2451181A31344300D6CE12 /* Debug */,
+				DB2451191A31344300D6CE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB24511A1A31344300D6CE12 /* Build configuration list for PBXNativeTarget "GRKStoryboardProxyTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB24511B1A31344300D6CE12 /* Debug */,
+				DB24511C1A31344300D6CE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB2450EC1A31344300D6CE12 /* Project object */;
+}
