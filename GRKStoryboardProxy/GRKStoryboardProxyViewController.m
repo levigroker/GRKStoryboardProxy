@@ -214,7 +214,7 @@ static void * kStoryboardObservationContext = &kStoryboardObservationContext;
     {
         //Get the old value
         UIStoryboard *storyboard = change[NSKeyValueChangeOldKey];
-        //Remove ourselcves as the observer (not needed any longer, and would cause a circular call since we are about to change it again)
+        //Remove ourselves as the observer (not needed any longer, and would cause a circular call since we are about to change it again)
         [object removeObserver:(id)self forKeyPath:keyPath];
         //Set the value back to what it was (the storyboard of origin)
         [object setValue:storyboard forKey:keyPath];
