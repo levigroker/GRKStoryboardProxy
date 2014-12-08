@@ -133,7 +133,14 @@ static void * kStoryboardObservationContext = &kStoryboardObservationContext;
     if (self.storyboardName.length > 0)
     {
         NSBundle *bundle = [self derivedBundle];
-        retVal = [UIStoryboard storyboardWithName:self.storyboardName bundle:bundle];
+        @try
+        {
+            retVal = [UIStoryboard storyboardWithName:self.storyboardName bundle:bundle];
+        }
+        @catch (NSException *exception)
+        {
+            NSLog(@"<%@>[ERROR]: %@", NSStringFromClass([self class]), exception);
+        }
     }
     
     if (!retVal)
