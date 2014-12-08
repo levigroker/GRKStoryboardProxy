@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "GRKStoryboardProxy"
-  s.version      = "1.0"
+  s.version      = "1.0.1"
   s.summary      = "Allows separation of Storyboard files by loading view controllers from alternate storyboards."
   s.description  = <<-DESC
 		A UIViewController subclass which can be used as a proxy for another view controller which resides
